@@ -182,7 +182,7 @@ public:
   void setAccelRateDivisor(uint16_t new_accel_divisor);
 
   bool enableAccelDLPF(bool enable, icm20x_accel_cutoff_t cutoff_freq);
-  bool enableGyrolDLPF(bool enable, icm20x_gyro_cutoff_t cutoff_freq);
+  bool enableGyroDLPF(bool enable, icm20x_gyro_cutoff_t cutoff_freq);
 
   void reset(void);
 

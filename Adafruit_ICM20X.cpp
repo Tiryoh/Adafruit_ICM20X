@@ -580,7 +580,7 @@ bool Adafruit_ICM20X::enableAccelDLPF(bool enable,
  * frequency will be filtered out
  * @return true: success false: failure
  */
-bool Adafruit_ICM20X::enableGyrolDLPF(bool enable,
+bool Adafruit_ICM20X::enableGyroDLPF(bool enable,
                                       icm20x_gyro_cutoff_t cutoff_freq) {
   _setBank(2);
   Adafruit_BusIO_Register gyro_config1 = Adafruit_BusIO_Register(
